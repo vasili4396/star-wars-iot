@@ -1,0 +1,39 @@
+.btn
+  display: inline-block
+  position: relative
+  font-weight: 400
+  text-align: center
+  white-space: nowrap
+  padding: .488rem 30px
+  font-size: 15px
+  line-height: 1.5
+  border: 1px solid transparent
+  border-radius: $button-border-radius
+  cursor: pointer
+  transition: 0.5s
+
+  &_primary
+    background: $primary-color
+    color: white
+
+  &_circle
+    border-radius: 50%
+    width: 30px
+    height: 30px
+    padding: 2px 5px
+    box-sizing: border-box
+    font-size: 16px
+
+  &_primary:hover
+    background: $primary-hover-color
+
+  &_danger
+    background: #fa1d1d
+    color: white
+
+  &_danger:hover
+    background: #e01b1b
+    color: white
+
+  &_large
+    width: 180px
